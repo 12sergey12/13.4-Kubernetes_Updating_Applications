@@ -34,7 +34,7 @@
 
 1. Создать deployment приложения с контейнерами nginx и multitool. Версию nginx взять 1.19. Количество реплик — 5.
 
-[deployments.yaml]()
+[deployments.yaml](https://github.com/12sergey12/13.4-Kubernetes_Updating_Applications/blob/main/deployments.yaml)
 
 ```
 apiVersion: apps/v1
@@ -85,7 +85,7 @@ spec:
             memory: "20Mi"
 ```
 
-[svc.yaml]()
+[svc.yaml](https://github.com/12sergey12/13.4-Kubernetes_Updating_Applications/blob/main/svc.yaml)
 
 ```
 apiVersion: v1
